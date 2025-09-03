@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Web Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Interactive Page</h1>
+    <button id="theme-toggle">🌙 Dark Mode</button>
+  </header>
+
+  <main>
+    <!-- Counter -->
+    <section>
+      <h2>Click Counter</h2>
+      <button id="counter-btn">Click Me!</button>
+      <p>You've clicked <span id="count">0</span> times</p>
+    </section>
+
+    <!-- FAQ -->
+    <section>
+      <h2>FAQ Section</h2>
+      <div class="faq">
+        <h3 class="faq-question">What is this page about?</h3>
+        <p class="faq-answer hidden">It's a simple demo to learn JavaScript interactivity!</p>
+      </div>
+      <div class="faq">
+        <h3 class="faq-question">Can I use this code?</h3>
+        <p class="faq-answer hidden">Yes! Feel free to customize it.</p>
+      </div>
+    </section>
+
+    <!-- Form -->
+    <section>
+      <h2>Sign Up Form</h2>
+      <form id="signup-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email"><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br>
+
+        <button type="submit">Submit</button>
+        <p id="form-message"></p>
+      </form>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

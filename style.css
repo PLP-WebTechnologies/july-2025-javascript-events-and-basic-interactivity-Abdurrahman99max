@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 20px;
+  background-color: #fff;
+  color: #333;
+  transition: background 0.3s, color 0.3s;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: #fff;
+}
+
+button {
+  margin: 5px 0;
+  padding: 8px 12px;
+  border: none;
+  background: #007BFF;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+.hidden {
+  display: none;
+}
+
+.faq {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+input {
+  margin: 5px 0;
+  padding: 5px;
+  width: 200px;
+}
+
+#form-message {
+  margin-top: 10px;
+  font-weight: bold;
+}
+#form-message.success {
+  color: green;
+}
+#form-message.error {
+  color: red;
+}
